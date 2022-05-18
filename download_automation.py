@@ -37,6 +37,7 @@ class DownloadedFileHandler(FileSystemEventHandler):
 file_types = {
     'images': {'.jpg', 'jpeg', '.gif', '.png', 'tiff', '.tif', '.bmp', '.eps', '.raw'},
     'videos': {'.mp4', '.avi', '.mov', '.wmv', '.mkv', 'webm'},
+    'audio': {'.mp3', '.aac', '.wma', 'flac', 'wav'},
     'documents': {'.pdf', '.txt', 'docx'},
     'installers': {'.exe', '.msi'},
     'compressed': {'.rar', '.zip'}
